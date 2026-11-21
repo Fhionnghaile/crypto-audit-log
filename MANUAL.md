@@ -11,6 +11,9 @@ An append-only log where you can prove an entry is present and that history was 
 ## 3. Demo
 Terminal demo: `python -m auditlog.cli` (append, checkpoint, prove, then tamper and watch it fail). Capture to record.
 
+![Real test run, captured 21 Nov 2026](docs/test-run.svg)
+*Real output from this repository's own tests, captured 21 Nov 2026.*
+
 ## 4. Run it yourself
 **Prerequisites:** Python 3.
 

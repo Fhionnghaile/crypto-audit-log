@@ -4,7 +4,7 @@
 > **An append-only log where any change to a past entry is cryptographically detectable in O(log n).**  
 > **Result:** 4 exhaustive suites — inclusion for every leaf to n=24, consistency for every (m,n), forged-checkpoint rejection.  
 > **Reproduce:** `pytest -q`  
-> ![CI](https://github.com/fhionnghaile/crypto-audit-log/actions/workflows/ci.yml/badge.svg)
+> ![CI](https://github.com/fhionnghaile/crypto-audit-log/actions/workflows/ci.yml/badge.svg) [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Fhionnghaile/crypto-audit-log/badge)](https://scorecard.dev/viewer/?uri=github.com/Fhionnghaile/crypto-audit-log)
 >
 > **What this is worth:** Lets you *prove* to a regulator, auditor or court that your records were never altered — not just assert it.
 
